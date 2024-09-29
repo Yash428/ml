@@ -1,0 +1,18 @@
+1)install venv
+	pip install virtualenv
+
+2)create one
+	virtualenv name
+		or
+	python -m venv myenv
+
+
+3) create with specific python
+	virtualenv -p /usr/bin/python3 virtualenv_name
+
+4)activate
+	source virtualenv_name/bin/activate
+
+5) deactivate
+	deactivate
+
